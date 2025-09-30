@@ -112,7 +112,8 @@ def executando_estadual(tabela, bovino=False):
     lista_dados_284 = []
     lista_dados_285 = []
     
-    for ano in range(2014, ano_atual):
+    for ano in range(2014, int(ano_atual)+1):
+        print(ano)
         trimestres = range(1, 5)
         for tri in trimestres:
             if bovino:
